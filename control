@@ -1,0 +1,9 @@
+Package: com.user.spinspringboard
+Name: SpinSpringBoard
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Spin your icons, dock and pages with adjustable speed and direction.
+Maintainer: you
+Author: you
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
