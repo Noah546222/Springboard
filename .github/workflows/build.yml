@@ -229,7 +229,7 @@ jobs:
           BUNDLE_NAME = SpinSpringBoardPrefs
           SpinSpringBoardPrefs_FILES = SSBRootListController.m
           SpinSpringBoardPrefs_FRAMEWORKS = UIKit
-          SpinSpringBoardPrefs_PRIVATE_FRAMEWORKS = Preferences
+          SpinSpringBoardPrefs_LDFLAGS = -undefined dynamic_lookup
           SpinSpringBoardPrefs_INSTALL_PATH = /Library/PreferenceBundles
           SpinSpringBoardPrefs_CFLAGS = -fobjc-arc
 
